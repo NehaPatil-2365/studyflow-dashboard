@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>StudyFlow</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+</head><body>
+<div class="app">
+<aside id="side"><div class="logo"><i>S</i>StudyFlow</div><nav id="nav" class="nav" aria-label="Main"></nav></aside>
+<div class="scrim" data-a="menu"></div>
+<main><header class="top glass">
+<button class="ib menu" data-a="menu" aria-label="Menu">☰</button>
+<div><h2 id="hello"></h2><small id="date"></small></div><span class="grow"></span>
+<button class="ib" data-a="bell" aria-label="Notifications">🔔<u id="dot"></u></button>
+<button class="ib" data-a="theme" aria-label="Toggle theme">🌓</button>
+<button class="av" id="av" data-a="go" data-id="settings" aria-label="Profile"></button></header>
+<section id="view" aria-live="polite"></section></main></div>
+<div id="modal" class="overlay"></div><div id="toasts"></div>
+<script src="script.js"></script></body></html>
